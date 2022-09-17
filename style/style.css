@@ -2,7 +2,6 @@
 
 /* Importar fontes */
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 
@@ -64,6 +63,7 @@ section > p {
     padding-bottom: 2em;
 }
 
+/* Se recomienda usar solo clases para evitar problemas de especificidad */
 section.normal {
     background-color: white;
     color: black;
